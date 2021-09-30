@@ -550,6 +550,10 @@ config_firewall
 
 cd $SAVED_DIR
 
+#su notes
+#cd /local/notesdata
+#/opt/hcl/domino/bin/server -listen
+
 echo
 echo "Done"
 echo
