@@ -399,9 +399,12 @@ install_software()
     # adds repository for additional software packages
     install_package epel-release
   fi
-
+  
   # installes required and useful packages
-  install_package gdb tar jq sysstat git bind-utils net-tools
+  install_package gdb tar jq sysstat git bind-utils net-tools firewalld cockpit
+  systemctl enable firewalld --now
+  systemctl enable cockpit.socket --now
+
 
   # first check if platform supports  perl-libs
   if [ ! -x /usr/bin/perl ]; then
