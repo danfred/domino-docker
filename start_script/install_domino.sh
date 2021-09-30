@@ -18,6 +18,7 @@
 SOFTWARE_DIR=/local/software
 
 #DOWNLOAD_FROM=http://127.0.0.1:7777
+DOWNLOAD_FROM=http://download.dserv.com
 PROD_NAME=domino
 
 DOMINO_DOCKER_GIT_URL=https://github.com/IBM/domino-docker/raw/master
