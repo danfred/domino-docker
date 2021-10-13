@@ -22,7 +22,8 @@ DOWNLOAD_FROM=http://download.dserv.com
 PROD_NAME=domino
 
 DOMINO_DOCKER_GIT_URL=https://github.com/danfred/domino-docker/raw/develop
-START_SCRIPT_URL=$DOMINO_DOCKER_GIT_URL/dockerfiles/domino/install_dir/start_script.tar
+#START_SCRIPT_URL=$DOMINO_DOCKER_GIT_URL/dockerfiles/domino/install_dir/start_script.tar
+START_SCRIPT_URL=$DOWNLOAD_FROM/start_script.tar
 VERSION_FILE_NAME_URL=$DOMINO_DOCKER_GIT_URL/software/current_version.txt
 SOFTWARE_FILE=$SOFTWARE_DIR/software.txt
 VERSION_FILE=$SOFTWARE_DIR/current_version.txt
